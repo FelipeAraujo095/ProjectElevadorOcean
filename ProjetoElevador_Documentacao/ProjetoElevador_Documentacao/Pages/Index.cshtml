@@ -1,0 +1,168 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "PROJETO FINAL - FORMAÇÃO MICROSOFT DEV";
+}
+
+    <div class="text-center">
+        <h3><b>PROJETO ELEVADOR (DOCUMENTAÇÃO)</b></h3><br />
+    </div>
+
+    <div class="text-justify">
+        <h1 class="display-6>OBJETIVO DO PROJETO</h1>
+        <p>Esse projeto foi desenvolvido na linguagem de programação C# (C Sharp) afim de obter o certificado de conclusão do curso Formação MS-DEV da Samsung Ocean Brasil.</p>
+    </div>
+    
+    <div class="text-justify">
+        <h3 class="display-6">OBJETIVO DA APLICAÇÃO</h3>
+        <p> O software facilitará o gerenciamento dos processos um elevador, com as seguintes funções:</p>
+        <p><strong>Inicializar:</strong> Que vai receber como parâmetros a capacidade do elevador e o total de
+        andares no prédio (sempre começando no térreo e vazio);</p>
+        <p><strong>Entrar:</strong> Sempre que houver espaço no elevador, poderá entrar mais uma pessoa;</p>
+        <p><strong>Sair:</strong> Sempre que houver uma pessoa dentro do elevador, ela poderá sair;</p>
+        <p><strong>Subir:</strong> Poderá subir até o último andar;</p>
+        <p><strong>Descer:</strong> Poderá descer até o térreo;</p>
+        <p><strong> > IMPORTANTE *****</strong> - O usuário informará a quantidade andares do prédio e a capacidade de pessoas que o elevador comporta.</p>
+    </div>
+
+         <h3 class="display-6">MENU DO SISTEMA</h3>
+            <li>Nessa tela o usuário vai informar a quantidade de andares e depois a quantidade de pessoas permitidas:</li>
+         <br />
+            <img src="~/img/parte1.png" class="img-fluid img-thumbnail" alt="Tela 1"/>
+         <br />
+         <br />
+            <li>Nessa tela o usuário receberá o retorno das informações inseridas na tela anterior:</li>
+         <br />
+            <img src="~/img/parte2.png" class="img-fluid img-thumbnail" alt="Tela 2"/>
+         <br />
+         <br />
+            <li>Nessa tela informa que entrou uma pessoa, quantidade de pessoas que estão dentro e o andar atual do elevador:</li>
+         <br />
+            <img src="~/img/parte3.png" class="img-fluid img-thumbnail" alt="Tela 3"/>
+         <br />
+         <br />
+            <li>Incluindo mais uma pessoa, mostrando a quantidade de pessoas que estão dentro e o andar atual do elevador:</li>
+         <br />
+            <img src="~/img/parte4.png" class="img-fluid img-thumbnail" alt="Tela 4"/>
+         <br />
+         <br />
+            <li>Ainda no térreo, utilizando a segunda opção, a tela informa que uma pessoa saiu do elevador:</li>
+         <br />
+            <img src="~/img/parte5.png" class="img-fluid img-thumbnail" alt="Tela 5"/>
+         <br />
+         <br />
+            <li>Exemplo de uma opção inválida:</li>
+         <br />
+            <img src="~/img/parte6.png" class="img-fluid img-thumbnail" alt="Tela 6"/>
+         <br />
+         <br />
+            <li>Exemplo do elevador subindo ao 1º andar:</li>
+         <br />
+            <img src="~/img/parte7.png" class="img-fluid img-thumbnail" alt="Tela 7"/>
+         <br />
+         <br />
+            <li>Exemplo do elevador subindo ao 4º andar:</li>
+         <br />
+            <img src="~/img/parte8.png" class="img-fluid img-thumbnail" alt="Tela 8"/>
+         <br />
+         <br />
+            <li>Exemplo do elevador subindo ao 50º andar:</li>
+         <br />
+            <img src="~/img/parte9.png" class="img-fluid img-thumbnail" alt="Tela 9"/>
+         <br />
+         <br />
+            <li>Exemplo do elevador no 50º e último andar:</li>
+         <br />
+            <img src="~/img/parte10.png" class="img-fluid img-thumbnail" alt="Tela 10"/>
+         <br />
+         <br />
+            <li>Exemplo do elevador descendo ao 45º andar:</li>
+         <br />
+            <img src="~/img/parte11.png" class="img-fluid img-thumbnail" alt="Tela 11"/>
+         <br />
+         <br />
+            <li>Exemplo do elevador descendo ao 1º andar:</li>
+         <br />
+            <img src="~/img/parte12.png" class="img-fluid img-thumbnail" alt="Tela 12"/>
+         <br />
+         <br />
+            <li>Exemplo do elevador chegou no térreo:</li>
+         <br />
+            <img src="~/img/parte13.png" class="img-fluid img-thumbnail" alt="Tela 13"/>
+         <br />
+         <br />
+            <li>O elevador está no térreo e não pode descer mais:</li>
+         <br />
+            <img src="~/img/parte14.png" class="img-fluid img-thumbnail" alt="Tela 14"/>
+         <br />
+         <br />
+            <li>Finalizando o sistema:</li>
+         <br />
+            <img src="~/img/parte15.png" class="img-fluid img-thumbnail" alt="Tela 15"/>
+         <br />
+         <br />
+	    
+         <h5 class="display-6"><strong>Variáveis e Funções:</strong></h5>
+
+        
+		    <li><strong>Inicializar (Controller):</strong></li>
+    
+            <p>Que vai receber como parâmetros a capacidade do elevador e o total de andares no prédio (sempre começando no térreo e vazio);</p>
+            <br />
+                <img src="~/img/initialize.png" class="img-fluid img-thumbnail" alt="Parte inicial do Projeto" />
+            <br />
+            <br />
+
+            <h5 class="display-6"><strong>Métodos:</strong></h5>
+            <br />
+                <img src="~/img/var1.png" class="img-fluid img-thumbnail" alt="Parte inicial métodos do Projeto" />
+            <br />
+            <br />
+
+            <li><strong>Entrar:</strong></li>
+
+            <p>Sempre que houver espaço no elevador, poderá entrar mais uma pessoa;</p>
+
+            <li><strong>Sair:</strong></li>
+
+            <p>Sempre que houver uma pessoa dentro do elevador, ela poderá sair;</p>
+            <br />
+                <img src="~/img/var2.png" class="img-fluid img-thumbnail" alt="Métodos entrar e sair do Projeto" />
+            <br />
+            <br />
+
+            <li><strong>Subir:</strong></li>
+
+            <p>Poderá subir até o último andar;</p>
+
+            <li><strong>Descer:</strong></li>
+
+            <p>Poderá descer até o térreo</p>
+            <br />
+                <img src="~/img/var3.png" class="img-fluid img-thumbnail" alt="Métodos subir e descer do Projeto" />
+            <br />
+            <br />
+
+            <h5 class="display-6"><strong>View:</strong></h5>
+
+            <p>Menu de opções do usuário.</p>
+            <br />
+                <img src="~/img/view1.png" class="img-fluid img-thumbnail" alt="Métodos subir e descer do Projeto" />
+          
+                <img src="~/img/view2.png" class="img-fluid img-thumbnail" alt="Métodos subir e descer do Projeto" />
+            <br />
+            <br />
+
+    <div class="text-justify">
+        <h3>Desenvolvido por Felipe Francisco Bentes de Araújo</h3>
+    </div>
+
+    <div class="text-justify">
+          <p>
+                Link do ProjetoElevador e ProjetoElevador_Documentacao - GitHub
+                <a href="https://github.com/FelipeAraujo095/ProjectElevadorOcean" target="_blank"> Projeto Elevador </a>
+                    <br/>
+                Conheça o Samsung Ocean Brasil e acesse a agenda de cursos
+                <a href="http://www.oceanbrasil.com/" target="_blank"> Ocean Brasil </a>
+          </p>
+    </div>
